@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 header {
@@ -459,9 +460,42 @@ h4 {
         margin-top: 300px;
     }
 }
-@media(min-width: 1920px) {
+@media(min-width: 1700px) {
     .create-form {
         margin-top: 300px;
+    }
+    .main-header-top-bar, .main-navbar {
+        max-width: 1920px;
+        margin: auto;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+    .create-form {
+        margin-top: 230px
+    }
+    .main-navbar {
+        margin-top: 15px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .banner {
+        max-width: 25vw;
+    }
+    .search-bar {
+        margin: auto;
+        width: 30vw;
+        margin-left: 80px;
+    }
+    .copy-header {
+        width: 15vw;
+        margin: right;
+        text-align: center;
+        font-size: 17px;
     }
 }
 @media(max-width: 426px) {
