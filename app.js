@@ -3,8 +3,8 @@ const app = express();
 app.use(express.static('public'));
 const puerto = 3000
 
-app.listen(puerto, ()=>{
-    console.log('Servidor funcionando en el puerto '+ puerto);
+app.listen(process.env.PORT || puerto, () => {
+    console.log("Servidor corriendo en el puerto " + puerto);
 });
 
 app.get('/', (req,res)=>{
