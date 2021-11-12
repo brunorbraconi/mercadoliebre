@@ -27,7 +27,6 @@ header {
 .main {
     background-color: lightgray;
     margin-top: 180px;
-    /*text-align: center;*/
 }
 
 
@@ -96,12 +95,9 @@ img {
 }
 
 .create-form {
-    /*padding: 20px 15px;*/
     background-color: lightgray;
     margin-top: 180px;
-    /*margin: auto;*/
     width: 100vw;
-    /*max-width: 500px;*/
     padding: 30px;
     border: 1px solid rgba (0,0,0,0.2);
 }
@@ -182,7 +178,6 @@ img {
     text-align: center;
     width: 90%;
     margin: 10px auto;
-    /*display: flex;*/
 }
 
 .main img {
@@ -221,7 +216,7 @@ img {
     justify-content: flex-start;
     position: relative;
     flex-wrap: wrap;
-    transition: all 1s;
+    transition: all 1000ms;
 }
 
 .display-descripcion:hover h4 {
@@ -303,16 +298,26 @@ h4 {
 
 .fa-credit-card {
     margin-bottom: 10px;
+    transition: all 0.5s;
+}
+.fa-credit-card:hover {
+    color: greenyellow;
 }
 
 .fa-gift {
     margin-bottom: 10px;
+    transition: all 0.5s;
 }
-
+.fa-gift:hover{
+    color: greenyellow;
+}
 .fa-user-shield {
     margin-bottom: 10px;
+    transition: all 0.5s;
 }
-
+.fa-user-shield:hover{
+    color: greenyellow;
+}
 .copyright {
     padding: 15px;
     font-size: 15px;
@@ -467,5 +472,4 @@ h4 {
         padding: 0;
         margin-bottom: -10px;
     }
-    
 }
