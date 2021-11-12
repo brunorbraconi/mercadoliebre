@@ -193,11 +193,11 @@ img {
     flex-wrap: wrap;
     font-size: 16px;
     max-width: 350px;
-    transition: all 1s;
+    transition: all 1000ms;
 }
 
 .display-articulos:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px rgb(20, 20, 20);
 }
 
 .display-articulos img {
