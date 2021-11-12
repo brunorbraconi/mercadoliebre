@@ -220,9 +220,11 @@ img {
 }
 
 .display-descripcion:hover h4 {
-    display: block;
+    display: inline;
 }
-
+.descripcion{
+    display: none;
+}
 .fa-truck {
     background-color: white;
     height: 30px;
